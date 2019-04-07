@@ -1,3 +1,7 @@
+# Spring boot microservice example
+
+This is example of spring boot microservice example with Eureka Server + Eureka Client + Zuul routing
+
 ## For windows:
 
 ```sh
