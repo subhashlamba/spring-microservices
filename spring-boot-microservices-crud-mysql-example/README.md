@@ -59,9 +59,7 @@ Zuul Server is routing server where we will fire the request:
 
 Now let's call our service using through zuul:
 
-http://localhost:8080/account/getAccountDetails
+http://localhost:8080/account/listEmployee
 
-It will give output like:
-
-This response from : 8182
+It will print all the Employee Object's JSON which are available in database. 
 
