@@ -5,29 +5,35 @@ This is example of spring boot microservice example with Eureka Server + Eureka 
 ## For windows:
 
 ```sh
-mvn clean install -f .\spring-boot-cloud-eureka-server\pom.xml
-mvn clean install -f .\spring-boot-cloud-eureka-account-service\pom.xml
-mvn clean install -f .\spring-boot-cloud-zuul-routing\pom.xml
+mvn clean install -f .\spring-boot-cloud-eureka-server\pom.xml && ^
+mvn clean install -f .\spring-boot-cloud-eureka-account-service\pom.xml && ^
+mvn clean install -f .\spring-boot-cloud-zuul-routing\pom.xml && ^
+mvn clean install -f .\spring-boot-spring-security-auth2.0-authentication-service\pom.xml && ^
+
 
 START "" java -jar spring-boot-cloud-eureka-server/target/eureka-server.jar 
 START "" java -jar spring-boot-cloud-eureka-account-service/target/account-service.jar --server.port=8181
 START "" java -jar spring-boot-cloud-eureka-account-service/target/account-service.jar --server.port=8182
 START "" java -jar spring-boot-cloud-eureka-account-service/target/account-service.jar --server.port=8183
 START "" java -jar spring-boot-cloud-zuul-routing/target/zuul-router.jar --server.port=8080 
+START "" java -jar spring-boot-spring-security-auth2.0-authentication-service/target/authentication-service.jar 
 ```
 
 ## For Linux/Ubuntu
 
 ```sh
-mvn clean install -f .\spring-boot-cloud-eureka-server\pom.xml
-mvn clean install -f .\spring-boot-cloud-eureka-account-service\pom.xml
-mvn clean install -f .\spring-boot-cloud-zuul-routing\pom.xml
+mvn clean install -f .\spring-boot-cloud-eureka-server\pom.xml 
+mvn clean install -f .\spring-boot-cloud-eureka-account-service\pom.xml 
+mvn clean install -f .\spring-boot-cloud-zuul-routing\pom.xml 
+mvn clean install -f .\spring-boot-spring-security-auth2.0-authentication-service\pom.xml 
 
-java -jar spring-boot-cloud-eureka-server/target/eureka-server.jar &
-java -jar spring-boot-cloud-eureka-account-service/target/account-service.jar --server.port=8181 &
-java -jar spring-boot-cloud-eureka-account-service/target/account-service.jar --server.port=8182 &
-java -jar spring-boot-cloud-eureka-account-service/target/account-service.jar --server.port=8183 &
-java -jar spring-boot-cloud-zuul-routing/target/zuul-router.jar --server.port=8080 & 
+
+START "" java -jar spring-boot-cloud-eureka-server/target/eureka-server.jar 
+START "" java -jar spring-boot-cloud-eureka-account-service/target/account-service.jar --server.port=8181
+START "" java -jar spring-boot-cloud-eureka-account-service/target/account-service.jar --server.port=8182
+START "" java -jar spring-boot-cloud-eureka-account-service/target/account-service.jar --server.port=8183
+START "" java -jar spring-boot-cloud-zuul-routing/target/zuul-router.jar --server.port=8080 
+START "" java -jar spring-boot-spring-security-auth2.0-authentication-service/target/authentication-service.jar
 ```
 
 ## Eureka Server
@@ -46,7 +52,7 @@ of account service that we can increase as per our need.
 Zuul Server is routing server where we will fire the request:
 
 Now let's generate token:
-
+```sh
 curl -X POST \
   http://localhost:8080/login/oauth/token \
   -H 'authorization: Basic amF2YWRldmVsb3BlcnpvbmU6c2VjcmV0' \
@@ -57,9 +63,9 @@ curl -X POST \
   -F username=zone1 \
   -F password=mypassword \
   -F client_id=javadeveloperzone
-  
+``` 
 It will give output like:
-
+``` 
 {
     "access_token": "c1c0c1dd-4bd4-407a-ad83-6f697f498fe6",
     "token_type": "bearer",
@@ -67,16 +73,16 @@ It will give output like:
     "expires_in": 1961,
     "scope": "read write"
 }
-
+```
 Now let's access actualt resource/service
-
+```sh
 curl -X GET \
   http://localhost:8080/account/getAccountDetails \
   -H 'authorization: Bearer c1c0c1dd-4bd4-407a-ad83-6f697f498fe6' \
   -H 'cache-control: no-cache' \
   -H 'content-type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW' \
   -H 'postman-token: d4313264-e6ac-38d6-240b-35a3208c0c42'
-
+``` 
 It will return data:
 
 
