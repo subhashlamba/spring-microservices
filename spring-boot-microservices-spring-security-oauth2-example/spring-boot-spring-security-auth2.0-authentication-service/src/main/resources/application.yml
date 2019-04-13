@@ -1,0 +1,11 @@
+server:
+  port: 9595
+spring:
+  application:
+    name: authentication-service
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:8761/eureka/
