@@ -2,6 +2,13 @@
 
 This is example of spring boot microservice example with Eureka Server + Eureka Client + Zuul routing
 
+## Checkout repository
+```sh
+> git clone https://github.com/subhashlamba/spring-microservices.git
+> cd spring-boot-microservices-spring-security-oauth2-example
+```
+## Step 1: Build and run all services
+
 ## For windows:
 
 ```sh
@@ -36,18 +43,18 @@ START "" java -jar spring-boot-cloud-zuul-routing/target/zuul-router.jar --serve
 START "" java -jar spring-boot-spring-security-auth2.0-authentication-service/target/authentication-service.jar
 ```
 
-## Eureka Server
+## Step 2: Eureka Server
 
 Eureka server is running 8761 port, Now let's open it. Where we can check that 3 instance of account-server is running.
 
 ### Eureka server : [http://localhost:8761/](http://localhost:8761/)
 
-## Account Service
+## Step 3: Account Service
 
 Account service is one of our business service, we can create many other services as per our needs. Here we have started 3 instance 
 of account service that we can increase as per our need. 
 
-## Zuul Server
+## Step 4: Zuul Server
 
 Zuul Server is routing server where we will fire the request:
 
