@@ -1,7 +1,7 @@
 # Spring boot microservice example
 
 This is example of spring boot microservice example with Eureka Server + Eureka Client + Zuul routing + MySQL database 
-## Checkout repostiry
+## Checkout repository
 ```sh
 > git clone https://github.com/subhashlamba/spring-microservices.git
 > cd spring-boot-microservices-crud-mysql-example
