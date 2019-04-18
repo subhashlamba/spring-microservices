@@ -1,5 +1,5 @@
 language: java
 before_install:
   - chmod +x ./spring-boot-microservices-example/build.sh
-  cd spring-boot-microservices-example
+before_script: cd spring-boot-microservices-example
 script: ./build.sh
