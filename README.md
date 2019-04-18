@@ -18,7 +18,8 @@ Netflix eureka server is one kind of service where we can register all the micro
 
 # Examples 
 
-## spring-boot-microservices-example
+## spring-boot-microservices-example  [![Build Status](https://travis-ci.com/subhashlamba/spring-microservices.svg?branch=master)](https://travis-ci.com/subhashlamba/spring-microservices)
+
 This about is about spring boot micro service with Eureka Server, Eureka Client, Zuul for request routing (client site load balancing)
 
 ## spring-boot-microservices-crud-mysql-example
