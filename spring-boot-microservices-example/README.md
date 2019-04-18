@@ -1,4 +1,5 @@
-# Spring boot microservice example
+# Spring boot microservice example [![Build Status](https://travis-ci.com/subhashlamba/spring-microservices.svg?branch=master)](https://travis-ci.com/subhashlamba/spring-microservices)
+
 
 This is example of spring boot microservice example with Eureka Server + Eureka Client + Zuul routing
 
