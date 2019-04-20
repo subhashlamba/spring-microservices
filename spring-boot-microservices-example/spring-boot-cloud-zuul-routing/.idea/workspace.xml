@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79b679de-a34a-422a-a307-439dd86548e4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring boot example + angular/spring-boot-jpa-mongodb-rest-example/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring boot example + angular/spring-boot-jpa-mongodb-rest-example/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring-Gson-custom-date-format/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-Gson-custom-date-format/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring-Gson-exclude-null-fields/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-Gson-exclude-null-fields/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring-boot-cross-origin-example/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-boot-cross-origin-example/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring-boot-jpa-delete-query/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-boot-jpa-delete-query/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring-boot-jpa-mongodb-rest-example/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-boot-jpa-mongodb-rest-example/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring-boot-jpa-mongodb-rest-example/src/main/java/com/javadeveloperzone/SpringBootConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-boot-jpa-mongodb-rest-example/src/main/java/com/javadeveloperzone/SpringBootConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring-boot-jpa-mongodb-rest-example/src/main/java/com/javadeveloperzone/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-boot-jpa-mongodb-rest-example/src/main/java/com/javadeveloperzone/model/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring-boot-jpa-mongodb-rest-example/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-boot-jpa-mongodb-rest-example/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring-boot-jpa-where-query/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-boot-jpa-where-query/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring-boot-multiple-database-example/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-boot-multiple-database-example/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-boot-microservices-spring-security-oauth2-example/spring-boot-cloud-eureka-account-service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-boot-microservices-spring-security-oauth2-example/spring-boot-cloud-eureka-account-service/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -47,10 +36,24 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1548356579">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="YAML" value="23" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="544">
@@ -64,11 +67,11 @@
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+            <state relative-caret-position="425">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -85,7 +88,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/javadeveloperzone/SpringBootConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="204">
               <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -141,9 +144,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/javadeveloperzone/controller/NotFoundController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/javadeveloperzone/controller/ZuulAPIController.java" />
         <option value="$PROJECT_DIR$/readme.txt" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/src/main/java/com/javadeveloperzone/SpringBootConfig.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -179,34 +182,35 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="springbootexample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-zuul-example" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-cloud-zuul-routing" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springbootexample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-zuul-example" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-cloud-zuul-routing" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springbootexample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-zuul-example" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-cloud-zuul-routing" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springbootexample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-zuul-example" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-cloud-zuul-routing" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springbootexample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-zuul-example" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-cloud-zuul-routing" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -214,7 +218,7 @@
             </path>
             <path>
               <item name="springbootexample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-zuul-example" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-cloud-zuul-routing" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -223,7 +227,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -242,7 +245,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554638489725" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring-boot-cloud-eureka-client" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.20574713" />
@@ -524,15 +527,15 @@
       <workItem from="1514614987693" duration="25000" />
       <workItem from="1554633576147" duration="4909000" />
       <workItem from="1554639140376" duration="663000" />
+      <workItem from="1555727853667" duration="52000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24171000" />
+    <option name="totallyTimeSpent" value="24223000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1540" height="840" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Web" order="0" side_tool="true" />
       <window_info id="Capture Tool" order="1" />
@@ -541,7 +544,7 @@
       <window_info id="Image Layers" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Nl-Palette" order="6" />
-      <window_info active="true" id="Project" order="7" visible="true" weight="0.30743244" />
+      <window_info active="true" id="Project" order="7" visible="true" weight="0.31216216" />
       <window_info id="Structure" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Java Enterprise" order="1" />
@@ -624,20 +627,30 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/javadeveloperzone/controller/NotFoundController.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/javadeveloperzone/controller/SpringBootExampleController.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/javadeveloperzone/controller/ZuulAPIController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/favicon.ico">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        <state relative-caret-position="544">
+          <caret line="44" column="28" selection-start-line="44" selection-end-line="45" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.4.0.RELEASE/spring-cloud-netflix-core-1.4.0.RELEASE.jar!/org/springframework/cloud/netflix/zuul/filters/route/RibbonRoutingFilter.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1462">
           <caret line="113" selection-start-line="113" selection-end-line="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javadeveloperzone/SpringBootConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -648,20 +661,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javadeveloperzone/SpringBootConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="44" column="28" selection-start-line="44" selection-end-line="45" />
+        <state relative-caret-position="425">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
