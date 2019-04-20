@@ -1,15 +1,15 @@
 # Spring boot microservice example
 
-This is example of spring boot microservice example with Eureka Server + Eureka Client + Zuul routing + MySQL database 
+This is example of spring boot microservice example with Eureka Server + Eureka Client + Zuul routing + MySQL database + Angular 2 
 ## Checkout repository
 ```sh
 > git clone https://github.com/subhashlamba/spring-microservices.git
-> cd spring-boot-microservices-crud-mysql-example
+> cd spring-boot-microservices-crud-mysql-angular5-example
 ```
 
 ## Step 1:
 Go to application.yml and change database configurations. 
-`spring-boot-microservices-crud-mysql-example/spring-boot-cloud-eureka-account-service/src/main/resources/application.yml`
+`spring-boot-microservices-crud-mysql-angular5-example/spring-boot-cloud-eureka-account-service/src/main/resources/application.yml`
 
 ## Step 2:
 
@@ -53,13 +53,13 @@ Eureka server is running 8761 port, Now let's open it. Where we can check that 3
 Account service is one of our business service, we can create many other services as per our needs. Here we have started 3 instance 
 of account service that we can increase as per our need. 
 
-## Step 5: Zuul Server
+## Step 6: Start Anguler UI 
 
-Zuul Server is routing server where we will fire the request:
+```sh
+cd Angular-2-UI
+npm install
+ng serve
+```
+Once UI Server has been start, Visit and perform CRUD Operations:
 
-Now let's call our service using through zuul:
-
-http://localhost:8080/account/listEmployee
-
-It will print all the Employee Object's JSON which are available in database. 
-
+http://localhost:4200/add-employee
