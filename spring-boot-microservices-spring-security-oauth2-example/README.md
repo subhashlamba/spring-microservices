@@ -49,6 +49,9 @@ Eureka server is running 8761 port, Now let's open it. Where we can check that 3
 
 ### Eureka server : [http://localhost:8761/](http://localhost:8761/)
 
+![eureka server](spring-boot-microservices-spring-security-oauth2-example-eureka-server.PNG)
+
+
 ## Step 3: Account Service
 
 Account service is one of our business service, we can create many other services as per our needs. Here we have started 3 instance 
