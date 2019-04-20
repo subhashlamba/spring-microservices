@@ -6,7 +6,7 @@ This is example of spring boot microservice example with Eureka Server + Eureka 
 ## Checkout repository
 ```sh
 > git clone https://github.com/subhashlamba/spring-microservices.git
-> cd spring-boot-microservices-crud-mysql-example
+> cd spring-boot-microservices-example
 ```
 ## Step 1: Start all services
 
@@ -42,8 +42,8 @@ In ubnutu we can use ``` jps ``` command to check current running Java processes
 ## Step 2: Check Eureka Server
 
 Eureka server is running 8761 port, Now let's open it. Where we can check that:
-3 instance of account-server is running.
-1 instance of zuul-service is running.
+* 3 instance of account-server is running.
+* 1 instance of zuul-service is running.
 
 
 ### Eureka server : [http://localhost:8761/](http://localhost:8761/)
