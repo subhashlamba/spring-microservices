@@ -12,7 +12,7 @@
 
 # About Repository
 
-This repository is about Microservice examples with spring boot. Using spring boot, Spring boot help us for easy configurations. So all the examples i have used spring boot with Eureka client and server.
+This repository is about Microservice examples with spring boot. Spring boot help us for easy configurations so all the examples i have used spring boot with Eureka client and server.
 
 Netflix eureka server is one kind of service where we can register all the micro services services and those microservices are called eureka client services. Once eureka client service register with eureka server after that eureka server will take care about those services. If you are looking for more details about eureka server and client then here is [documentation for eureka server and client services confugurations](https://cloud.spring.io/spring-cloud-netflix/spring-cloud-netflix.html) 
 
