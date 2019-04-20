@@ -48,6 +48,8 @@ Eureka server is running 8761 port, Now let's open it. Where we can check that:
 
 ### Eureka server : [http://localhost:8761/](http://localhost:8761/)
 
+![eureka server](eureka-server.PNG)
+
 ## Step 3: Check Account Service
 
 Account service is one of our business service, we can create many other services as per our needs. Here we have started 3 instance 
@@ -60,6 +62,8 @@ Zuul Server is routing server where we will fire the request:
 Now let's call our service using through zuul:
 
 http://localhost:8080/account/getAccountDetails
+
+When we call same service multiple times at that time we find that respose comes from diffrent account service out of three running account instances. 
 
 Output:
 ```sh
