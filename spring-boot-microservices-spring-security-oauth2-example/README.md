@@ -45,7 +45,11 @@ START "" java -jar spring-boot-spring-security-auth2.0-authentication-service/ta
 
 ## Step 2: Eureka Server
 
-Eureka server is running 8761 port, Now let's open it. Where we can check that 3 instance of account-server is running.
+Eureka server is running 8761 port, Now let's open it. Where we can check that:
+
+* 3 instances of account-server is running.
+* 1 instance of authentication server is running
+* 1 instance of zuul server is running
 
 ### Eureka server : [http://localhost:8761/](http://localhost:8761/)
 
