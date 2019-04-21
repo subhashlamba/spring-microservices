@@ -22,6 +22,9 @@ This is example of Spring boot micro services with MySQL database where account 
 ### spring-boot-microservices-spring-security-oauth2-example
 In this example, I have tried to explain micro service with token based authentication with OAuth2.0
 
+### spring-boot-microservices-crud-mysql-angular5-example
+In this example, I have included spring boot microservice with eureka, zuul for routing, UI using angular 5.
+
 # WhoAmI?
 
 > I am a software developer by profession. I have 7 years of experience in software development especially in Java and Spring. I learn a lot during my jobs and professional carrier. Many times face issues and spent a lot of hours to find out the right solution and when we face more issue which means that we learing more.
